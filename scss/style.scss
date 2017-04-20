@@ -22,11 +22,11 @@
     margin: 0px;
   }
 
-  &:hover {
-    background: yellow;
-    width: 250px;
-    height: 400px;
-  }
+  //&:hover {
+  //  background: yellow;
+  //  width: 250px;
+  //  height: 400px;
+  //}
 }
 
 .invisibleField {
@@ -50,6 +50,12 @@
 .cloudedLeopard {
   top: 15%;
   left: 67%;
+}
+
+.selectedAnimal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 //.animal img:hover + .invisibleField { /* Adjacent-Sibling Selector ???
