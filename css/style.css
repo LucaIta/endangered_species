@@ -1,0 +1,41 @@
+.worldMapContainer {
+  position: relative; }
+
+.worldMapCanvas {
+  width: 100%; }
+
+.masthead {
+  background-color: antiquewhite; }
+
+.animal {
+  position: absolute;
+  border: 2px solid green; }
+  .animal img {
+    width: 70px; }
+  .animal p {
+    margin: 0px; }
+  .animal:hover {
+    background: yellow;
+    width: 250px;
+    height: 400px; }
+
+.invisibleField {
+  display: none; }
+
+.commonName {
+  position: relative;
+  top: 80%; }
+
+.banded {
+  top: 65%;
+  left: 81%; }
+
+.asiaticLion {
+  top: 11%;
+  left: 52%; }
+
+.cloudedLeopard {
+  top: 15%;
+  left: 67%; }
+
+/*# sourceMappingURL=style.css.map */
