@@ -1,5 +1,12 @@
+body {
+  margin: 0;
+  //height: 100%;
+}
+
 .worldMapContainer {
   position: relative;
+  //width: 90%;
+  top: 50%;
 }
 
 .worldMapCanvas {
@@ -7,18 +14,24 @@
 }
 
 .masthead {
-  background-color: antiquewhite;
+  background-color: white;
+  //height: 60px;
+  box-sizing: border-box;
+  padding: 10px;
+  h1 , p {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
 }
 
 .animal {
-  //transition: all 0.3s;
-  //transition: object-position 0.4s; no
   transition: all 0.3s , background-color 0.1ms;
-  // what should apply the transition rule on?
   position: absolute;
   max-width: 30%;
+  border-radius: 10%;
   img {
     width: 70px;
+    border-radius: 10%;
   }
   p {
     margin: 0px;
@@ -29,23 +42,26 @@
   display: none;
 }
 
-.commonName {
-  position: relative;
-  top: 80%;
+.commonNameLabel , .scientificNameLabel {
+  font-weight: bold;
+}
+
+.scientificName {
+  padding-bottom: 10px;
 }
 
 .banded {
-  top: 65%;
-  left: 81%;
+  top: 77%;
+  left: 82%;
 }
 
 .asiaticLion {
-  top: 11%;
+  top: 30%;
   left: 52%;
 }
 .cloudedLeopard {
-  top: 15%;
-  left: 67%;
+  top: 34%;
+  left: 69%;
 }
 
 .selectedAnimal {
@@ -54,12 +70,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 10px;
   background-color: white;
-  border: 2px solid green;
+  border: 2px solid black;
   img {
     width: 100%;
   }
   .invisibleField {
     display: block;
   }
+}
+
+.amaticFont {
+  font-family: 'Amatic SC', serif;
 }

@@ -2,40 +2,47 @@
 <html>
 <head>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Amatic+SC">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Endangered Species</title>
 </head>
 
 <body>
-    <div class="masthead">
-        <p>Masthead</p>
+    <div class="masthead amaticFont">
+        <h1>Endangered Species World Map</h1>
+        <p>A map displaying the position of endangered species around the world. Click on the pictures to get more information about the animal</p>
     </div>
     <div class="worldMapContainer">
-        <img class="worldMapCanvas" src="img/world_map_canvas.jpg">
+        <!--<img class="worldMapCanvas" src="img/world_map_canvas.jpg">-->
+        <img class="worldMapCanvas" src="img/world_map.png">
         <div class="animal banded">
             <img src="img/banded_hare_wallaby.jpg">
 
-            <p class="commonNameLabel invisibleField">Common Name:</p>
-            <p class="commonName">Banded Hare Wallaby</p>
-
-            <p class="scientificNameLabel invisibleField">Scientific Name:</p>
+            <p class="commonNameLabel invisibleField">Common Name</p>
+            <p class="commonName invisibleField">Banded Hare Wallaby</p>
+            <p class="scientificNameLabel invisibleField">Scientific Name</p>
             <p class="scientificName invisibleField">Something</p>
+
         </div>
         <div class="animal asiaticLion">
             <img src="img/asiatic_lion.jpg">
-            <p class="commonNameLabel invisibleField">Common Name:</p>
-            <p class="commonName">Asiatic Lion</p>
-            <p class="scientificNameLabel invisibleField">Scientific Name:</p>
+            <p class="commonNameLabel invisibleField">Common Name</p>
+            <p class="commonName invisibleField">Asiatic Lion</p>
+            <p class="scientificNameLabel invisibleField">Scientific Name</p>
             <p class="scientificName invisibleField">Something</p>
         </div>
         <div class="animal cloudedLeopard">
             <img src="img/clouded_leopard.jpg">
-            <p class="commonNameLabel invisibleField">Common Name:</p>
-            <p class="commonName">Clouded Leopard</p>
-            <p class="scientificNameLabel invisibleField">Scientific Name:</p>
+            <p class="commonNameLabel invisibleField">Common Name</p>
+            <p class="commonName invisibleField">Clouded Leopard</p>
+            <p class="scientificNameLabel invisibleField">Scientific Name</p>
             <p class="scientificName invisibleField">Something</p>
         </div>
     </div>
 </body>
 </html>
+
+<!--should I get rid of the invisibleField class?-->
+<!--when clicking on the background, it should deselect the animal-->
