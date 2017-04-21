@@ -2,6 +2,9 @@ body {
   margin: 0;
   background-color: white; }
 
+.amaticFont {
+  font-family: 'Amatic SC', serif; }
+
 .container {
   position: relative; }
 
@@ -46,7 +49,7 @@ body {
 .scientificName {
   padding-bottom: 10px; }
 
-.banded {
+.bandedHare {
   top: 77%;
   left: 82%; }
 
@@ -59,7 +62,6 @@ body {
   left: 69%; }
 
 .selectedAnimal {
-  transition: all 0.3s;
   z-index: 1;
   top: 50%;
   left: 50%;
@@ -74,9 +76,6 @@ body {
     width: 100%; }
   .selectedAnimal .invisibleBox {
     display: block; }
-
-.amaticFont {
-  font-family: 'Amatic SC', serif; }
 
 .blurred .animal:not(.selectedAnimal), .blurred .worldMapContainer {
   filter: blur(5px);
