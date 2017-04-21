@@ -11,13 +11,15 @@
 }
 
 .animal {
+  //transition: all 0.3s;
+  //transition: object-position 0.4s; no
+  transition: all 0.3s , background-color 0.1ms;
+  // what should apply the transition rule on?
   position: absolute;
-  //border: 2px solid green;
-
+  max-width: 30%;
   img {
     width: 70px;
   }
-
   p {
     margin: 0px;
   }
@@ -47,11 +49,17 @@
 }
 
 .selectedAnimal {
+  transition: all 0.3s;
+  z-index: 1;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  background-color: white;
+  border: 2px solid green;
+  img {
+    width: 100%;
+  }
+  .invisibleField {
+    display: block;
+  }
 }
-
-//.animal img:hover + .invisibleField { /* Adjacent-Sibling Selector ???
-//    /*display: block;*/
-//}
