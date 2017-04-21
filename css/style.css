@@ -37,7 +37,7 @@ body {
     margin: 0px;
     font-size: x-large; }
 
-.invisibleField {
+.invisibleBox {
   display: none; }
 
 .commonNameLabel, .scientificNameLabel {
@@ -70,7 +70,7 @@ body {
   border: 2px solid black; }
   .selectedAnimal img {
     width: 100%; }
-  .selectedAnimal .invisibleField {
+  .selectedAnimal .invisibleBox {
     display: block; }
 
 .amaticFont {

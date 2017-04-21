@@ -1,6 +1,9 @@
 
 var uncenterCurrentlyCenteredAnimal = function () {
     $(".selectedAnimal").removeClass("selectedAnimal"); // target the current selected animal and unselect it so that they don't overlap
+}
+
+var removeBlurEffect = function () {
     $(".container").removeClass("blurred");
 
 }
@@ -8,10 +11,11 @@ var uncenterCurrentlyCenteredAnimal = function () {
 var moveAnimalOnClick = function (animal) {
     if (!$(animal).hasClass("selectedAnimal")) {
         uncenterCurrentlyCenteredAnimal();
+        $(".container").addClass("blurred");
+    } else {
+        removeBlurEffect();
     }
     $(animal).toggleClass("selectedAnimal");
-    $(".container").addClass("blurred");
-    // filter: blur(5px);
 };
 
 
@@ -21,6 +25,7 @@ $("document").ready(function () {
     });
     $(".worldMapContainer , .masthead").click(function () {
         uncenterCurrentlyCenteredAnimal();
+        removeBlurEffect();
     });
 });
 
