@@ -1,12 +1,11 @@
 
 var uncenterCurrentlyCenteredAnimal = function () {
     $(".selectedAnimal").removeClass("selectedAnimal"); // target the current selected animal and unselect it so that they don't overlap
-}
+};
 
 var removeBlurEffect = function () {
     $(".container").removeClass("blurred");
-
-}
+};
 
 var moveAnimalOnClick = function (animal) {
     if (!$(animal).hasClass("selectedAnimal")) {
