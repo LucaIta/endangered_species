@@ -1,6 +1,8 @@
 
 var uncenterCurrentlyCenteredAnimal = function () {
     $(".selectedAnimal").removeClass("selectedAnimal"); // target the current selected animal and unselect it so that they don't overlap
+    $(".container").removeClass("blurred");
+
 }
 
 var moveAnimalOnClick = function (animal) {
@@ -8,6 +10,8 @@ var moveAnimalOnClick = function (animal) {
         uncenterCurrentlyCenteredAnimal();
     }
     $(animal).toggleClass("selectedAnimal");
+    $(".container").addClass("blurred");
+    // filter: blur(5px);
 };
 
 
