@@ -7,6 +7,8 @@ The site displays the position of endangered species around the world. The user 
 When the animal picture gets clicked, it gets moved to the center of the page, the image gets enlarged, information about the specie get displayed, and the other elements on the page get blurred.
 The site wasn't built with mobile devices in mind._
 
+[Screenshot] (screenshot2.jpg)
+
 ## Technologies Used
 
 * jQuery
