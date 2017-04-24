@@ -55,7 +55,7 @@ body {
 .invisibleBox {
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.3s;
+  transition: max-height , opacity , 0.3s;
   opacity: 0;
 }
 
@@ -81,6 +81,21 @@ body {
 .cloudedLeopard {
   top: 34%;
   left: 69%;
+}
+
+.giantKangarooRat {
+  top: 33%;
+  left: 14%;
+}
+
+.longTailedOtter {
+  top: 69%;
+  left: 28%;
+}
+
+.barbaryServal {
+  top: 55%;
+  left: 50%;
 }
 
 // END animals positioning on the map
