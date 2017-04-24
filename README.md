@@ -1,3 +1,5 @@
+![Screenshot] (screenshot2.jpg)
+
 # Endangered Species World Map
 
 ## Description
@@ -6,8 +8,6 @@ _This page was developed as an assignment for the Episodus CSS class. The goal w
 The site displays the position of endangered species around the world. The user can click on the animal picture to select the animal and read more information about it.
 When the animal picture gets clicked, it gets moved to the center of the page, the image gets enlarged, information about the specie get displayed, and the other elements on the page get blurred.
 The site wasn't built with mobile devices in mind._
-
-[Screenshot] (screenshot2.jpg)
 
 ## Technologies Used
 
