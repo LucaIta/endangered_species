@@ -13,7 +13,7 @@ When the animal picture gets clicked, it gets moved to the center of the page, t
 * HTML
 * SCSS
 
-## Link to final result
+## Link to Live Website
 _https://lucaita.github.io/endangered_species/_
 
 ### License
