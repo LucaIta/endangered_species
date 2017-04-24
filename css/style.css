@@ -39,6 +39,9 @@ body {
   .animal p {
     margin: 0px;
     font-size: x-large; }
+  .animal a {
+    color: blue;
+    font-weight: bold; }
 
 .invisibleBox {
   overflow: hidden;

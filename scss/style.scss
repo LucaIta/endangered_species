@@ -50,6 +50,11 @@ body {
     margin: 0px;
     font-size: x-large;
   }
+
+  a {
+    color: blue;
+    font-weight: bold;
+  }
 }
 
 .invisibleBox {
@@ -128,3 +133,4 @@ body {
     filter: blur(2px);
   }
 }
+
