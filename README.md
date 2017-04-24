@@ -1,4 +1,4 @@
-![Screenshot] (screenshot2.jpg)
+[screenshot2](screenshot2.jpg)
 
 # Endangered Species World Map
 
