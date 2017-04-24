@@ -1,6 +1,5 @@
-
 var uncenterCurrentlyCenteredAnimal = function () {  // target the current selected animal and unselect it so that they don't overlap
-    $(".selectedAnimal").removeClass("selectedAnimal");
+    $(".selectedAnimal:not('.earthsEndangeredLink')").removeClass("selectedAnimal");
 };
 
 var removeBlurEffect = function () {  // disable the blur effect
