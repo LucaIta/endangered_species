@@ -17,7 +17,7 @@ The site wasn't built with mobile devices in mind._
 * SCSS
 
 ## Link to Live Website
-https://lucaita.github.io/endangered_species/_
+https://lucaita.github.io/endangered_species/
 
 ### License
 
